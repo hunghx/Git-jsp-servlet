@@ -1,5 +1,5 @@
 
-package ra.ontap;
+package ra.ontap.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
