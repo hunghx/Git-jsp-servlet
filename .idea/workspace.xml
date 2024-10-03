@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b053aafd-004c-4931-b0b7-ffb48532eaf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/model/FormDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/demo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/dao/ICustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/util/ConnectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit-customer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd1be1e8-79cb-4aaa-930b-feed518d0787.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd1be1e8-79cb-4aaa-930b-feed518d0787.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/config/DispatcherConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/config/DispatcherConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -78,7 +85,7 @@
   "keyToString": {
     "Gradle.Build ontapmd4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 9.0.881.executor": "Debug",
+    "Tomcat Server.Tomcat 9.0.881.executor": "Run",
     "git-widget-placeholder": "spring-mvc",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -207,6 +214,7 @@
       <workItem from="1727851313376" duration="5096000" />
       <workItem from="1727870768373" duration="548000" />
       <workItem from="1727940552476" duration="8812000" />
+      <workItem from="1727966510682" duration="2521000" />
     </task>
     <servers />
   </component>
