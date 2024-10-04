@@ -20,4 +20,6 @@ public class AppInit {
         return resolver;
     }
 
+    // cách 1 cấu hình bằng xml
+
 }

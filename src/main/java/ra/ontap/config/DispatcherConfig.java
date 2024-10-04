@@ -9,7 +9,7 @@ public class DispatcherConfig extends AbstractAnnotationConfigDispatcherServletI
     @Override
     protected Class<?>[] getRootConfigClasses() {
         // khai baos cacs caaus hinhf ko liên quan tơ MVC
-        return new Class[0];
+        return new Class[]{HibernateConfig.class};
     }
 
     @Override
