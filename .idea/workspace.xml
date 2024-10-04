@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b053aafd-004c-4931-b0b7-ffb48532eaf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/config/HibernateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/dao/IStudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/dao/StudentDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd1be1e8-79cb-4aaa-930b-feed518d0787.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd1be1e8-79cb-4aaa-930b-feed518d0787.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/config/AppInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/controller/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/dao/CustomerDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/dao/ICustomerDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/model/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/service/CustomerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/service/ICustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/util/ConnectionDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-customer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit-customer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/ontap/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/ontap/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate-config.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -90,7 +85,7 @@
     "Gradle.Build ontapmd4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.Tomcat 9.0.881.executor": "Run",
-    "git-widget-placeholder": "orm",
+    "git-widget-placeholder": "orm-annotation",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -219,7 +214,7 @@
       <workItem from="1727870768373" duration="548000" />
       <workItem from="1727940552476" duration="8812000" />
       <workItem from="1727966510682" duration="3200000" />
-      <workItem from="1728026000250" duration="2182000" />
+      <workItem from="1728026000250" duration="7109000" />
     </task>
     <servers />
   </component>

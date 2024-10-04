@@ -30,6 +30,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.springframework/spring-webmvc
     implementation 'org.springframework:spring-webmvc:5.3.18'
+    // https://mvnrepository.com/artifact/org.springframework/spring-orm
+    implementation 'org.springframework:spring-orm:5.3.18'
+
     // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
     implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.4.10.Final'
     compileOnly 'org.projectlombok:lombok:1.18.8'
